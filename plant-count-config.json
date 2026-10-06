@@ -1,0 +1,75 @@
+{
+  "plastic_working_width": 1600,
+  "plastic_min_area": 300,
+  "plastic_min_aspect": 1.5,
+  "row_bridge_kernel_px": 51,
+  "plastic_v_min": "auto",
+  "plastic_s_max": 60,
+  "plant_exg_min": 30,
+  "native_exg_min": 20,
+  "native_ndvi_min": 0.1,
+  "native_ndre_min": 0.03,
+  "native_dilate_px": 9,
+  "min_plant_diameter_cm": 3,
+  "max_plant_diameter_cm": 60,
+  "min_plant_area_px": 6,
+  "watershed_fg_fraction": 0.45,
+  "dark_spot_detection": true,
+  "hole_diameter_cm": 8,
+  "dark_spot_min_contrast": 30,
+  "dark_spot_edge_margin": 0.8,
+  "dark_spot_max_size": 3.0,
+  "dark_spot_min_separation": 1.0,
+  "dark_spot_require_green": false,
+  "dark_spot_exg_min": 5,
+  "dark_spot_ndvi_gate": false,
+  "row_constraints": true,
+  "row_center_band_frac": 0.25,
+  "row_min_length_frac": 0.25,
+  "row_gap_split_frac": 0.04,
+  "row_profile_threshold": 0.3,
+  "plant_spacing_cm": null,
+  "plant_spacing_min_cm": 8,
+  "plant_spacing_max_cm": 80,
+  "crowd_min_gap_frac": 0.6,
+  "farm_boundary": [
+    [
+      20.35599245,
+      73.90566958,
+      "edge1"
+    ],
+    [
+      20.35620395,
+      73.9058079,
+      "midpoint1"
+    ],
+    [
+      20.35653355,
+      73.90606053,
+      "edge2"
+    ],
+    [
+      20.35635585,
+      73.90631416,
+      "edge3"
+    ],
+    [
+      20.35598818,
+      73.90612271,
+      "midpoint2"
+    ],
+    [
+      20.35577924,
+      73.9060304,
+      "edge4"
+    ]
+  ],
+  "gps_rtk": false,
+  "dedupe_spacing_m": null,
+  "dedupe_search_radius_m": 1.0,
+  "dedupe_min_overlap": 15,
+  "hide_repeats_in_images": false,
+  "keep_base_images": false,
+  "write_overlay": true,
+  "write_instance_csv": true
+}
